@@ -1,0 +1,18 @@
+.cart {
+    padding: 20px;
+  }
+  
+  .cart h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cart-item .MuiTypography-body2 {
+    margin-right: 10px;
+  }
+  

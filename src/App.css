@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.App-header {
+  background-color: #d18e39;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.App-header-left {
+  display: flex;
+  align-items: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 50px;
+  margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin-right: 20px;
+}
+
+.App-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.App-nav a:hover {
+  text-decoration: underline;
+}
+
+.App-contact {
+  display: flex;
+  align-items: center;
+}
+
+.App-contact .MuiTypography-root {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.App-main {
+  padding: 20px;
+  padding-bottom: 60px; /* Add bottom padding to avoid overlap with footer */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  gap: 20px;
 }
