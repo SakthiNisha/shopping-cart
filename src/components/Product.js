@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { connect } from 'react-redux';
 import { addToCart } from '../redux/actions';
 
 const Product = ({ product, addToCart, updateCartCount, cart }) => {
+  const [quantity, setQuantity] = useState(1);
   const handleAddToCart = () => {
-    addToCart(product); // Dispatch the addToCart action with the product
+    addToCart({ ...product, quantity });
     updateCartCount(cart.length + 1); // Update the cart count after adding an item
   };
 
@@ -13,6 +14,13 @@ const Product = ({ product, addToCart, updateCartCount, cart }) => {
       <img src={product.image} alt={product.name} style={{ width: '150px', height: '150px' }} />
       <h3>{product.name}</h3>
       <p>${product.price}</p>
+      <input 
+        type="number" 
+        value={quantity} 
+        onChange={(e) => setQuantity(Number(e.target.value))}
+        min="1"
+        style={{ width: '50px', marginBottom: '10px' }}
+      />
       <button onClick={handleAddToCart}>Add to Cart</button>
     </div>
   );
