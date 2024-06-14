@@ -2,9 +2,9 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import { Paper } from '@mui/material';
-import banner1 from '../assets/banner4.jpg'; // Add your image paths
-import banner2 from '../assets/banner2.jpg';
-import banner3 from '../assets/banner3.jpg';
+import banner1 from '../assets/offer1.jpg'; // Add your image paths
+import banner2 from '../assets/offer3.jpg';
+import banner3 from '../assets/offer4.jpg';
 
 const CarouselComponent = () => {
     const items = [

@@ -16,7 +16,7 @@ import IconButton from '@mui/material/IconButton';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import { connect } from 'react-redux';
-import logo from './assets/logo.jpg';
+import logo from './assets/tsf11.jpg';
 import CarouselComponent from './components/CarouselComponent'; // Import the carousel component
 
 const App = ({ cart }) => {
