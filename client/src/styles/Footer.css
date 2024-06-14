@@ -1,0 +1,23 @@
+.App-footer {
+    background-color: #d18e39;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .App-footer nav {
+    margin-top: 10px;
+  }
+  
+  .App-footer a {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .App-footer a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,43 @@
+.App-header {
+    background-color: #507416;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .App-header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .App-logo {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .App-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .App-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .App-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
